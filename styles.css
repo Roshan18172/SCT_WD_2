@@ -1,0 +1,48 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  background-image: url('https://t3.ftcdn.net/jpg/01/81/33/44/360_F_181334456_izy7WhJzEvkJzZrQWyBHmOCchKViuAGS.jpg');
+  background-size:auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.stopwatch {
+  background-color:  rgb(255, 255, 255);
+  padding: 30px 60px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+#time-display {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.controls {
+  margin-bottom: 20px;
+}
+
+.controls button {
+  padding: 10px 20px;
+  margin: 0 5px;
+  font-size: 1em;
+  cursor: pointer;
+}
+
+#laps {
+  margin-top: 20px;
+}
+
+#lap-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+#lap-list li {
+  padding: 5px 0;
+}
